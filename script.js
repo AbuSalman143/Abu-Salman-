@@ -10,7 +10,7 @@ function toggel(){
 
 let home=document.querySelector("#nov-home");
 let about=document.querySelector("#nov-about");
-let services=document.querySelector("#nov-services");
+// let services=document.querySelector("#nov-services");
 let project=document.querySelector("#nov-project");
 let contact=document.querySelector("#nov-contact");
 
