@@ -17,7 +17,7 @@ let contact=document.querySelector("#nov-contact");
 
 home.addEventListener("click",removeToggel);
 about.addEventListener("click",removeToggel);
-services.addEventListener("click",removeToggel);
+// services.addEventListener("click",removeToggel);
 project.addEventListener("click",removeToggel);
 contact.addEventListener("click",removeToggel);
 
