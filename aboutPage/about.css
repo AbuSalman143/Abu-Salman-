@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    color: var(--text-color);
+}
+
+:root{
+    --bg-color:#1f242d;
+    --secound-bg-color:#212836;
+    --text-color:#fff;
+    --main-color:#0ef;
+    --layer-color:rgb(0, 238, 255);
+    --black-color: #000;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+
+.header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px var(--main-color);
+    z-index: 1000;
+    background-color: var(--bg-color);
+   
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    
+    text-shadow: 0px 3px 35px  var(--main-color);
+ }
+.logo i{
+    font-size: 24px;
+}
+
+.logo a{
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+.logo span{
+   color: var(--text-color);
+}
+
+.navbar{
+   
+    width: 55%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a{
+    color: var(--text-color);
+    margin-left: 20px;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+
+.menu{
+    display: none;
+}
+
+.CV-container{
+    margin-top: 3%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+.sidebar{
+    
+    width: 20%;
+    height: auto;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.img img{
+    width: 170px;
+    height: 170px;
+    border: 4px solid var(--main-color);
+    border-radius: 60%;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name .heading{
+    font-size: 30px;
+    color: var(--text-color);
+}
+.name .profession{
+    font-size: 18px;
+    color: var(--main-color);
+}
+.detail{
+    /* border: 2px solid; */
+    margin-top: 15%;
+    padding: 2%;  
+     
+}
+.detail-heading{
+    /* border: 2px solid ; */
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--main-color);
+    /* text-decoration:underline; */
+    
+
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    background-color: #0ef;
+    margin-bottom: 3%;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 2px;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    
+}
+.social-media a{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.social-media a i{
+color: var(--main-color);
+font-size: 18px;
+margin-right: 10px;
+}
+
+.hobbies,.language,.skill{
+   
+    width: 100%;
+    margin-top: 15%;
+    padding: 2%;  
+}
+
+.skill-list p {
+    font-size: 18px;
+    margin-left:10px ;
+}
+
+.skill-list  p i{
+    font-size: 24px;
+    color: var(--main-color);
+    /* margin-left:10px ; */
+    margin-right: 10px;
+}
+.hobbies,.language{
+    width: 100%;
+}.hobbies p i,.language p i{
+    color: var(--main-color);
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+    /* *{
+        color: var(--black-color);
+    } */
+    
+.main-section *{
+    color: var(--black-color);
+}
+
+.main-section{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    height: auto;
+    width: 70%;
+    background-color: white;
+}
+.main-section hr{
+    background-color: var(--black-color);
+}
+.main-section h1{
+   
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+}
+h3{
+    text-decoration: underline;
+}
+
+.brife-introduction h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.brife-introduction p{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.declaration,.achivement,.education,.emp-history,.aboutme,.objective{
+    margin-top: 5%;
+    width: 98%;
+}
+.declaration h3 i,.achivement h3 i,.education h3 i,.objective h3 i,.aboutme h3 i,.emp-history h3 i{
+    color: var(--main-color);
+    font-size: 24px;
+    margin-right: 10px;
+}
+.declaration p,.achivement p,.education p,.emp-history p ,.aboutme p,.objective p{
+    font-size: 18px;
+    margin-left:40px ;
+}
+.history{
+    /* border: 2px solid; */
+    margin-left: 10%;
+    margin-top: 15px;
+}
+.history p{
+    margin-left: 25px;
+}
+.history h3{
+    margin-left: 25px;
+}
+
+.achivement p i,.education p i,.history-content i{
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+
+.signature-container{
+    margin: 100px 0px 55px 0px;
+    display: flex;
+    width: 98%;justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .CV-container{
+        margin-top: 25%;
+        padding: 0.5%;
+    }
+    .sidebar{
+        width: 25%;
+    }
+    .img img{
+        width: 130px;
+        height: 130px;
+    }
+   .name .heading{
+        font-size: 22px;
+    }
+    .name .profession{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:555px){
+    .CV-container{
+        margin-top: 25%;
+        padding: 0.5%;
+    }
+    .sidebar{
+        width: 30%;
+    }
+    .main-section{
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid;
+        height: auto;
+        width: 70%;
+        background-color: white;
+    }
+    .main-section hr{
+        background-color: var(--black-color);
+    }
+    .main-section h1{
+      font-size: 24px;
+    }
+   
+    
+    .brife-introduction h2{
+        font-size:18px ;
+    }
+    .brife-introduction p{
+       font-size: 14px;
+    }
+    /* .declaration,.achivement,.education,.emp-history,.aboutme,.objective{
+        margin-top: 5%;
+        width: 98%;
+    } */
+    .declaration h3 ,.achivement h3 ,.education h3 i,.objective h3 ,.aboutme h3 ,.emp-history h3 {
+       
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .declaration p,.achivement p,.education p,.emp-history p ,.aboutme p,.objective p{
+        font-size: 14px;
+    }
+    .history{
+        /* border: 2px solid; */
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+    .history p{
+        margin-left: 15px;
+    }
+    .history h3{
+        margin-left: 15px;
+    }
+    .signature-container{
+        margin: 100px 0px 55px 0px;
+        display: flex;
+        width: 98%;justify-content: space-between;
+    }
+    .signature-container p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+
+    .logo{
+        width: 100px;
+        margin-left: 2px;
+      }
+      .logo i{
+          font-size: 18px;
+      }
+      
+      .logo a{
+         font-size: 12px;
+      }
+      .menu{
+          font-size: 24px;
+          display: inline-block;
+          margin-right:10px ;
+      }
+      .navbar{
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 50%;
+          height: auto;
+          padding: 16px;
+          background-color: var(--bg-color);
+          display: none;
+      }
+      .navbar a{
+          margin-bottom: 10px;
+          /* border: 2px solid; */
+          width: 100%;
+          margin-left: 0px;
+      }
+      .navbar a:hover{
+          color: var(--main-color);
+      }
+      .navbar.active{
+          display: flex;
+          flex-direction: column;
+      }
+    .CV-container{
+        margin-top: 25%;
+        padding: 0.5%;
+    }
+    .sidebar{
+        width: 35%;
+        padding: 0% 0px;
+    }
+    
+    .img img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .name .heading{
+        font-size: 14px;
+    }
+    .name .profession{
+        font-size: 10px;
+    }
+   .detail-heading{
+        font-size: 18px;
+    }
+    hr{
+        height: 2px;
+    }
+    .social-media a{
+        font-size: 10px;
+    }
+    .social-media a i{
+    font-size: 14px;
+    margin-right: 7px;
+    }
+    .hobbies,.language,.skill{
+        padding: 0%;  
+    }
+    
+    .skill-list p {
+        font-size: 12px;
+        margin-left:5px ;
+    }
+    .skill-list  p i{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .hobbies,.language{
+        font-size: 15px;
+    }.hobbies p i,.language p i{
+        margin: 0 8px;
+        font-size: 8px;
+    }
+    .hobbies p,.language p{
+        font-size: 12PX;
+    }
+    .detail-heading{
+        font-size: 14px;
+        margin-bottom: 0px;
+        /* padding: 2px; */
+
+    }
+    /* .main-section *{
+        color: var(--black-color);
+    }
+    
+    .main-section{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid;
+        height: auto;
+        width: 65%;
+        background-color: white;
+    }
+    .main-section hr{
+        background-color: var(--black-color);
+    } */
+    .main-section h1{
+       font-size: 18px;
+       margin-bottom: 10px;
+    }
+    .brife-introduction h2{
+        font-size: 10px;
+        text-align: center;
+    }
+    .brife-introduction p{
+        font-size: 10px;
+    }
+    /* .declaration,.achivement,.education,.emp-history,.aboutme,.objective{
+        margin-top: 5%;
+        width: 98%;
+    } */
+    .declaration h3 i,.achivement h3 i,.education h3 i,.objective h3 i,.aboutme h3 i,.emp-history h3 i{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .declaration h3 ,.achivement h3 ,.education h3 ,.objective h3 ,.aboutme h3 ,.emp-history h3 {
+        font-size: 11px;
+        
+    }
+    .declaration p,.achivement p,.education p,.emp-history p ,.aboutme p,.objective p{
+        font-size: 10px;
+        margin-left:0px ;
+        text-align: justify;
+    }
+    /* .history{
+         border: 2px solid; 
+        margin-left: 0%;
+        margin-top: 15px;
+    } */
+    .history p{
+        margin-left: 0px;
+        font-size: 12px;
+        text-align: start;
+    }
+    .history h3{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    
+    .achivement p i,.education p i,.history-content i{
+        font-size: 6px;
+        margin-right: 1px;
+    }
+    
+    
+    .signature-container{
+        margin: 100px 0px 55px 0px;
+        display: flex;
+        width: 98%;justify-content: space-between;
+    }
+}

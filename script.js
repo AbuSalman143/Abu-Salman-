@@ -28,4 +28,19 @@ function removeToggel(){
 
 
 
+// about date section 
+
+let todayDate=new Date();
+
+let date = document.querySelector(".date span");
+// console.log(date.innerText);
+date.innerText=todayDate.toLocaleDateString();
+
+
+// console.log(todayDate);
+// todayDate.getDate
+
+
+
+
 

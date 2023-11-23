@@ -262,17 +262,17 @@ body{
 .home .img{
     
     
-    height: 95%;
-    width: 25%;
+    /* height: 95%; */
+    /* width: 25%; */
    
-    box-shadow: 0px -9px 31px 3px var(--main-color);
+    /* box-shadow: 0px -9px 31px 3px var(--main-color); */
 }
 .home .img img{
-    width: 100%;
-    height: 100%;
+    /* width: 95%;
+    height: 100%; */
     transform: scaleX(-1);
-    border-radius: 26%;
-    
+    border-radius: 50%;
+    box-shadow: 0px -9px 31px 3px var(--main-color);
 }
 
 
@@ -321,17 +321,17 @@ body{
 
 .home .home-content .social-media{
     
-    margin: 20px;
+    margin: 20px 0px;
     width: 50%;
 }
 .home .home-content .social-media a {
     font-size: 30px;
-    margin-left: 5%;
+   
     color: var(--main-color);
 }
 
 .home .home-content .social-media a i{
-    border: 2px solid var(--main-color);
+   
     width: 45px;
     height: 45px;
     text-align: center;
@@ -346,6 +346,25 @@ body{
     text-shadow: 0px 3px 35px  var(--main-color);
     transform: scale(1.5);
 }   
+
+
+.cv{
+    /* margin-left: 80px; */
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 110, 74, 0.806),var(--layer-color))
+}
+.cv a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.cv a i{
+    margin-left: 5px;
+    color:rgb(3, 38, 49);
+}
 
 
 /* about section */
@@ -393,15 +412,16 @@ body{
 }
 
 .btn{
-    
-    font-size: 18px;
-    color: var(--text-color);
-    width: 150px;
-    text-align: center;
+    width: auto;
+    border-radius: 10px;
     padding: 10px;
-    border-radius: 20px;
+    background: linear-gradient(rgba(0, 110, 74, 0.806),var(--layer-color));
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
     font-weight: 600;
-    background-color: var(--main-color);
+    width: 150px;
+    color: var(--text-color);
     margin: 5% 0px ;
     transition: all 0.2s linear;
 }
@@ -582,6 +602,7 @@ body{
 }
 .code-btn,.diploye-btn{
     font-size: 18px;
+
     /* font-weight: 500; */
     /* background-color: var(--secound-bg-color); */
     padding: 5px;
@@ -595,14 +616,18 @@ body{
 }
 
 .more-project-btn{
-    background-color: var(--main-color);
-    height: 35px;
-    text-align: center;
-    font-weight: 600;
-    font-size: 24px;
-    color: var(--text-color);
+   
+    width: auto;
     border-radius: 10px;
-    width: 250px;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 110, 74, 0.806),var(--layer-color));
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    width: 150px;
+    color: var(--text-color);
+   
     margin: 20px  0px;
 
 }
@@ -667,20 +692,21 @@ textarea{
 
 .submit-btn{
     margin-top: 10px;
-    
+   
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: center;
     
 }
 .submit-btn button{
-    width: 150px;
+    padding: 10px;
+    width: 180px;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--text-color);
-    background-color: var(--main-color);
+    background: linear-gradient(rgba(0, 110, 74, 0.806),var(--layer-color));
     cursor: pointer;
     transition: all 0.2s linear;
 
@@ -791,7 +817,7 @@ footer{
 }
 
 .footer-social-media a i{
-    border: 2px solid var(--main-color);
+    
     color: var(--main-color);
     width: 50px;
     height: 50px;

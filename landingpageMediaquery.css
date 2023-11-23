@@ -108,7 +108,7 @@
 .home .home-content .social-media{
     
     /* margin: 20px; */
-    padding-top: 112px;
+    /* padding-top: 112px; */
     width: 50%;
 }
 
@@ -216,7 +216,7 @@
     #nov-about:hover::before{
         font-size: 18px;
      }
-     #nov-services{
+     /* #nov-services{
         top: 38%;
         left: 3%;
         width: 100px;
@@ -226,10 +226,10 @@
     }
     #nov-services:hover::before{
         font-size: 18px;
-     }
+     } */
 
      #nov-project{
-        top: 48%;
+        top: 38%;
         left: 3%;
         width: 100px;
      }
@@ -242,7 +242,7 @@
         font-size: 18px;
      }
      #nov-contact{
-        top: 58%;
+        top: 48%;
         left: 3%;
         width: 100px;
      }
@@ -282,6 +282,13 @@
     padding-top: 0px;
     width: 70%;
 }
+.cv a{
+    
+    font-size: 14px;
+    
+}
+
+
 
     
 
@@ -307,6 +314,9 @@
 }
 .about .about-img img {
     width: 75%;
+}
+.btn{
+    font-size: 14px;
 }
 
 /* services section  */
@@ -367,6 +377,10 @@
     
     textarea{
         height:150px;
+    }
+
+    .more-project-btn{
+        font-size: 14px;
     }
     
     /* footer section  */
@@ -552,7 +566,7 @@
     margin: 25% 2%;
     width: 98%;
     height: auto;
-    padding-top: 15%;
+    /* padd ing-top: 15%; */
 
 }
 
@@ -691,6 +705,7 @@
         font-size:22px ;
     }
    .more-project-btn{
+        padding: 0px;
         height: 45px;
         width: 200px;
         line-height: 45px;
@@ -715,6 +730,9 @@
 
 label{
     font-size: 18px;
+}
+.submit-btn button{
+    font-size: 14px;
 }
 
 
